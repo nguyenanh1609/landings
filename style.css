@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.range {
+  width: 100%;
+  height: 80px;
+}
+header {
+  background-image: url("img/banner.png");
+  height: 926px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.nav {
+  width: 1210px;
+  height: 156px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  position: relative;
+}
+.nav .menu {
+  position: absolute;
+  left: 0;
+  line-height: 156px;
+}
+.nav .menu ul li {
+  display: inline-block;
+  color: #fff;
+  height: 30px;
+  padding: 10px;
+  font-size: 24px;
+}
+.nav .logo {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  /* line-height: 156px; */
+}
+.nav .brands {
+  position: absolute;
+  right: 0px;
+  line-height: 156px;
+}
+.nav .brands .list-brands {
+  display: inline-block;
+  padding: 10px;
+}
+.content-header {
+  width: 1440px;
+  height: 853.06px;
+  padding: 80px 0px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+}
+.content-header span {
+  background-color: #2091f9;
+  width: 236px;
+  border-radius: 35px;
+  height: 52px;
+  display: block;
+  font-size: 24px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 24px;
+}
+.content-header span > p {
+  line-height: 52px;
+}
+.content-header h1 {
+  font-size: 64px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+}
+.content-header > p {
+  width: 600px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* content */
+.content h1 {
+  text-align: center;
+  padding-bottom: 14px;
+}
+.content > p {
+  text-align: center;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content .list {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.content .list .list-item {
+  flex-basis: 25%;
+}
+.content .list .list-item > img,
+h3 {
+  padding-bottom: 10px;
+}
+.img-content {
+  text-align: center;
+}
+/* content 2 */
+.content-2 
+{
+    width: 1230px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.content-2 .layer-1{
+    text-align: left;
+}
+.content-2 .layer-1 >h1{
+    width: 300px;
+}
+.content-2 .layer-1 >p{
+    font-size: 18px;
+    padding: 14px 0px;
+}
+.content-2 .layer-1 >button{
+    background-color: #2091f9;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0;
+    color: #fff;
+}
