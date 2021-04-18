@@ -4,7 +4,7 @@
 }
 .range {
   width: 100%;
-  height: 80px;
+  height: 150px;
 }
 header {
   background-image: url("img/banner.png");
@@ -12,7 +12,6 @@ header {
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
-
 }
 .nav {
   width: 1210px;
@@ -37,8 +36,8 @@ header {
 .nav .logo {
   position: absolute;
   left: 50%;
-  top: 0;
-  bottom: 0;
+  top: 45px;
+  /* bottom: 0; */
   /* line-height: 156px; */
 }
 .nav .brands {
@@ -51,7 +50,7 @@ header {
   padding: 10px;
 }
 .content-header {
-  width:100%;
+  width: 100%;
   height: 853.06px;
   padding: 80px 0px;
   text-align: center;
@@ -91,12 +90,14 @@ header {
 .content h1 {
   text-align: center;
   padding-bottom: 14px;
+  font-size: 64px;
 }
 .content > p {
   text-align: center;
   width: 500px;
   margin-left: auto;
   margin-right: auto;
+  font-size: 32px;
 }
 .content .list {
   width: 800px;
@@ -117,34 +118,126 @@ h3 {
   text-align: center;
 }
 /* content 2 */
-.content-2 
-{
-    width: 1230px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-between;
-    align-items: center;
+.content-2 {
+  width: 1230px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-2 .layer-1 {
+  text-align: left;
+}
+.content-2 .layer-1 > h1 {
+  width: 450px;
+  font-size: 64px;
+  font-weight: 400;
+}
+.content-2 .layer-1 > p {
+  font-size: 32px;
+  padding: 14px 0px;
+}
+.content-2 .layer-1 > button {
+  background-color: #2091f9;
+  margin: 60px 0px;
+  padding: 19px 38px;
+  border-radius: 39px;
+  border: 0;
+  color: #fff;
+}
+.content-2 .layer-1 .layer1-1 > h4 {
+  margin: 7px 0px;
+}
+.content-2 .layer-1 .layer1-1 > h1 {
+  width: 450px;
+  font-size: 64px;
+  font-weight: 400;
+}
+.content-2 .layer2 {
+  margin-left: -200px;
+}
+.content-2 .layer-1 .layer1-2 {
+  padding: 15px 0px;
+}
+.content-2 .layer-1 .layer1-2 > h4 {
+  padding: 10px 0px 0px 10px;
+}
+.content-2 .layer-1 .layer1-2 > p {
+  padding: 0px 0px 0px 10px;
+}
+.content-2 .layer-1 .layer1-2 > button {
+  background-color: #2091f9;
+  margin: 36px 0px;
+  padding: 19px 38px;
+  border-radius: 39px;
+  border: 0;
+  color: #fff;
+}
+.content-2 .layer-1 .layer1-2 > input {
+  background: #f4f4f4;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  border-radius: 39px;
+  padding: 19px 39px;
+}
+
+/* content-3 */
+.content-3 .layer-1 {
+  text-align: center;
+  margin: 80px 0px;
+}
+.content-3 .layer-1 > h1 {
+  font-size: 64px;
+  font-weight: 400;
+}
+.content-3 .layer-1 > p {
+  font-size: 32px;
+  width: 518px;
+
+  padding: 10px;
+  margin: 7px auto;
+}
+.content-3 .layer-2 {
+  text-align: center;
+}
+.content-3 .layer-3 {
+  text-align: center;
+  margin: 80px 0px;
+}
+.content-3 .layer-3 > button {
+  background-color: #2091f9;
+  margin: 36px 0px;
+  padding: 19px 38px;
+  border-radius: 39px;
+  border: 0;
+  color: #fff;
+  font-size: 24px;
+}
+.content-3 .layer-2 >p{
+  margin: 60px auto;
+  font-size: 32px;
+  width: 950px;
 
 }
-.content-2 .layer-1{
-    text-align: left;
+.content-3 .layer-2 .client{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.content-2 .layer-1 >h1{
-    width: 300px;
+.content-3 .layer-2 .client >img{
+  display: inline-block;
 }
-.content-2 .layer-1 >p{
-    font-size: 18px;
-    padding: 14px 0px;
+.content-3 .layer-2 .client .client-text{
+  display: inline-block;
+  padding-left: 5px;
+  text-align: left;
+  
 }
-.content-2 .layer-1 >button{
-    background-color: #2091f9;
-    padding: 10px;
-    border-radius: 15px;
-    border: 0;
-    color: #fff;
-}
-iframe{
-    border: 1px solid black;
-    border-radius: 20px;
+
+/* content-4 */
+/* bản đồ  "map" */
+iframe {
+  border: 1px solid black;
+  border-radius: 20px;
 }
