@@ -236,6 +236,7 @@ h3 {
 /* content-4 */
 .content-4 {
   background: #252b42;
+  width: 100%;
 }
 .content-4 .layer-1 {
   padding: 100px 0px;
@@ -306,7 +307,8 @@ h3 {
 
 /* center */
 .content-4 .layer-2 .layer-2-item-center  {
-  background-color: #e8e8e8;
+  background-color: #2091f9;
+  color: #fff;
   flex-basis: 30%;
   border-radius: 10px;
 }
@@ -348,10 +350,7 @@ h3 {
   display: block;
   margin: 40px auto;
 }
-#layer-2-item{
-  background-color: #2091f9;
-  color: #fff;
-}
+
 #layer-2-item-1{
   /* padding-top: 80px; */
 }
