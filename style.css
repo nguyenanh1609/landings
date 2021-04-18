@@ -373,3 +373,54 @@ iframe {
   border: 1px solid black;
   border-radius: 20px;
 }
+
+.content-5{
+  height: 40px;
+}
+/* footer */
+
+footer{
+  background-color: #252B42;
+  color: #fff;
+}
+footer .list{
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 150px 0px;
+}
+footer .list .list-1{
+  display: flex;
+  width: 600px;
+}
+.list .list-1 .list-item{
+  flex-basis: 30%;
+  
+}
+.list .list-1 .list-item>h3{
+  padding: 15px 0px;
+  font-weight: bold;
+  
+}
+.list .list-1 .list-item>p{
+  padding: 5px 0px;
+  font-weight: 400;
+  
+}
+footer .list .list-2{
+  width: 275px;
+}
+footer .list .list-2 .list-brands{
+  display: inline-block; padding: 20px 20px 20px 0px;
+}
+footer .list .list-2>p{
+  padding: 15px 0px;
+}
+footer .list .list-2 .ti-location-pin{
+  font-size: 32px;
+}
+footer .list .list-2 .ti-mobile{
+  font-size: 32px;
+}
