@@ -263,6 +263,7 @@ h3 {
   background-color: #e8e8e8;
   flex-basis: 30%;
   border-radius: 10px;
+  /* min-height: auto; */
 }
 .content-4 .layer-2 .layer-2-item .layer-2-item-1 {
   margin-top: 40px;
@@ -352,20 +353,22 @@ h3 {
   color: #fff;
 }
 #layer-2-item-1{
-  padding-top: 80px;
+  /* padding-top: 80px; */
 }
-#layer-2-item-4{
+/* #layer-2-item-4{
   padding-bottom: 80px;
-}
+} */
 #button{
   background-color: #fff;
   color: #2091f9;
   /* padding-bottom: 80px; */
 }
-.content-4 .layer-2 .layer-2-item-center #layer-2-item-4-center{
+/* .content-4 .layer-2 .layer-2-item-center #layer-2-item-4-center{
   padding-bottom: 80px;
+} */
+.test{
+  height: 40px;
 }
-
 /* bản đồ  "map" */
 iframe {
   border: 1px solid black;
